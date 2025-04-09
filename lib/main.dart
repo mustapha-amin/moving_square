@@ -71,7 +71,7 @@ class SquareAnimationState extends State<SquareAnimation> {
                   }
                 },
                 child: const Text(
-                  'Left',
+                  'To Left',
                   style: TextStyle(color: Colors.white),
                 ),
               ),
@@ -92,7 +92,7 @@ class SquareAnimationState extends State<SquareAnimation> {
                   }
                 },
                 child: const Text(
-                  'Right',
+                  'To Right',
                   style: TextStyle(color: Colors.white),
                 ),
               ),
