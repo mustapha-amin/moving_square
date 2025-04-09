@@ -63,7 +63,7 @@ class SquareAnimationState extends State<SquareAnimation> {
                           : Colors.blue,
                 ),
                 onPressed: () {
-                  if (_alignment != Alignment.centerLeft) {
+                  if (_alignment != Alignment.centerLeft && !_boxIsMoving) {
                     setState(() {
                       _boxIsMoving = true;
                       _alignment = Alignment.centerLeft;
@@ -84,7 +84,7 @@ class SquareAnimationState extends State<SquareAnimation> {
                           : Colors.green,
                 ),
                 onPressed: () {
-                  if (_alignment != Alignment.centerRight) {
+                  if (_alignment != Alignment.centerRight && !_boxIsMoving) {
                     setState(() {
                       _boxIsMoving = true;
                       _alignment = Alignment.centerRight;
